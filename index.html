@@ -11,3 +11,32 @@
 <link rel="stylesheet" href="style.css">
   <title>Resume generator</title>
 </head>
+
+  <body>
+  <div id="cvformpage">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2ba5ff";>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">HazelResume</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a id="navtemplate" onclick="showtemplates()" class="nav-link" href="#">Templates</a>
+        </li>
+      
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-outline-success nav-btn mx-3" style ="color : black"; 
+         type="button">Login</button>
+        <button onclick="buildcv()" class="btn btn-outline-success nav-btn bg-light" style ="color : black"; 
+         type="button">Build Resume</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  
