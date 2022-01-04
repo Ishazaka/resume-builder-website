@@ -46,3 +46,15 @@ aqobj.insertBefore(newnode, aqaddbuttonob);
 
 }
 
+// to show  template page clicking on template nav
+function showtemplates(){
+ let cvform = document.getElementById("cv-form");
+let cvtemplatepage = document.getElementById("cv-template");
+ cvform.style.display = "none";
+ cvformpage.style.display = "none";
+ cvtemplatepage.style.display = "block";
+}
+
+
+
+
