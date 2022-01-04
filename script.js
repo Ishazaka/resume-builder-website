@@ -30,3 +30,19 @@ let weaddbuttonob = document.getElementById("clickwe");
 weobj.insertBefore(newnode, weaddbuttonob);
 }
 
+ //  function for academic qualification
+function addmoreaq(){
+  let newnode = document.createElement("textarea");
+newnode.classList.add("aqfield");
+newnode.classList.add("form-control");
+newnode.classList.add("mt-3");
+newnode.setAttribute("rows", 3);
+newnode.setAttribute("placeholder", "Enter here");
+
+
+let aqobj = document.getElementById("aq");
+let aqaddbuttonob = document.getElementById("clickaq");
+aqobj.insertBefore(newnode, aqaddbuttonob);
+
+}
+
