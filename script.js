@@ -14,3 +14,19 @@
 //  let weaddbutton =  document.getElementById("weaddbutton");
 //   weobj.innerHTML = html ;
 //  }
+
+ // function for work experience
+function  addmorewe(){
+let newnode = document.createElement("textarea");
+newnode.classList.add("wefield");
+newnode.classList.add("form-control");
+newnode.classList.add("mt-3");
+newnode.setAttribute("rows", 3);
+newnode.setAttribute("placeholder", "Enter here");
+
+
+let weobj = document.getElementById("we");
+let weaddbuttonob = document.getElementById("clickwe");
+weobj.insertBefore(newnode, weaddbuttonob);
+}
+
