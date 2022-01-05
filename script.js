@@ -119,4 +119,12 @@ document.getElementById("ccat").innerHTML = document.getElementById("ccafield").
   document.getElementById("cv-template").style.display = "block";
 
 }      
-      
+ 
+
+// print cv
+function printcv(){
+  document.getElementById("notshowbtn").style.display = "none";
+window.print();
+}
+
+
