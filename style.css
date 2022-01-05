@@ -13,4 +13,22 @@ text-decoration: none;
 }
 
 
+.section{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.section h2.section-head{
+text-align: center;
+color: #000;
+margin-bottom: 40px;
+}
+.section h2.section-head::afer{
+background: #e74c3c;
+content: "";
+display: block;
+width: 100px;
+height: 3px;
+margin: 20px auto;
+}
+
 
