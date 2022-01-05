@@ -31,4 +31,25 @@ height: 3px;
 margin: 20px auto;
 }
 
+ 
+#banner{
+ background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS56DGnqz2lHmFcOH00bjHfmdTWBmkwumEzWA&usqp=CAU")
+ no-repeat 0 0;
+ background-size: cover;
+  background-position: center;
+}
+.banner-title{
+padding-top: 5rem;
+
+} 
+
+.banner-title h1{
+background: rgba(255,255,255,0.8);
+display: inline-block;
+padding: 10px;
+margin: 0;
+}
+ 
+
+
 
