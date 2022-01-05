@@ -94,3 +94,21 @@ overflow: auto; */
  border-radius: 5px;
 }
 
+.smallcol{
+  background-color: rgb(99, 95, 95); 
+  color: white;
+  border-radius: 5px 5px;
+}
+.smallcol a{
+ color: white;
+ border-bottom: 1px solid white;
+}
+
+.namearea{
+  margin-top: 80px;
+
+}
+.workcolor{
+color: white;
+
+}
