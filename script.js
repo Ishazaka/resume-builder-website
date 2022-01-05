@@ -65,5 +65,16 @@ function buildcv(){
   cvtemplate.style.display = "none";
 }
 
+//  to generate cv
+function generatecv(){
 
+  // name
+let namefield = document.getElementById("namefield").value;
+let namet1 = document.getElementById("nameT1")
+let namet2 = document.getElementById("namet2")
+namet1.innerHTML = namefield;
+namet2.innerHTML = namefield;
+
+// contact
+document.getElementById("contactt").innerHTML = document.getElementById("contactfield").value;
 
