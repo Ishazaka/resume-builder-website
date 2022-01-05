@@ -78,3 +78,19 @@ namet2.innerHTML = namefield;
 // contact
 document.getElementById("contactt").innerHTML = document.getElementById("contactfield").value;
 
+
+document.getElementById("addresst").innerHTML = document.getElementById("addressfield").value;
+
+document.getElementById("countryt").innerHTML = document.getElementById("countryfield").value;
+
+document.getElementById("emailt").innerHTML = document.getElementById("emailfield").value;
+
+document.getElementById("linkedint").innerHTML = document.getElementById("linkedfield").value;
+
+document.getElementById("githubt").innerHTML = document.getElementById("githubfield").value;
+
+
+      
+      
+      
+      
