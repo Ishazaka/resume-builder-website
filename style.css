@@ -75,4 +75,22 @@ box-shadow: 0 0 9px rgba(0, 0, 0, 0.836);
 }   
 
 
+#cv-form{
+  display: none;
+}
+
+ #cv-template {
+  display: none;
+} 
+
+
+
+#cv-template{
+  margin-top: 6px;
+width: 60vw;
+/* height: 140vh;
+overflow: auto; */
+ background: rgba(212, 210, 210, 0.884); 
+ border-radius: 5px;
+}
 
