@@ -112,3 +112,31 @@ overflow: auto; */
 color: white;
 
 }
+
+
+#footer-sidebar{
+  color: #fff;
+ background: #2ba5ff;
+ padding: 20px 0;
+}
+.footer-widget a{
+color: #fff;
+
+}
+.footer-widget h4{
+border-bottom: 2px solid #fff;
+display: inline-block;
+margin-bottom: 10px;
+}
+
+
+.latest-news li{
+  margin-bottom: 3px;
+}
+#footer{
+  color: #fff;
+background:  #2982c2;
+padding: 10px 0;
+}
+
+
