@@ -55,6 +55,15 @@ let cvtemplatepage = document.getElementById("cv-template");
  cvtemplatepage.style.display = "block";
 }
 
+// build cv on homepage
+function buildcv(){
+  let homepage = document.getElementById("cvformpage");
+  let cvform = document.getElementById("cv-form");
+ let cvtemplate = document.getElementById("cv-template");
+  homepage.style.display = "none";
+  cvform.style.display = "block";
+  cvtemplate.style.display = "none";
+}
 
 
 
