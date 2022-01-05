@@ -50,6 +50,29 @@ padding: 10px;
 margin: 0;
 }
  
+.banner-title p.lead{
+ color: #fff;
+background: #2a9bec91;
+padding: 10px;
+}
+.service-box{
+text-align: center;
+
+}
+.service-box i.fa{
+color: #2ba5ff;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+   #containerform{
+  /* width: 90vw;
+   height: 90vh;
+  overflow: auto;   */
+/* background-color: #91c5eb; */
+border-radius: 9px;
+box-shadow: 0 0 9px rgba(0, 0, 0, 0.836);
+}   
 
 
 
