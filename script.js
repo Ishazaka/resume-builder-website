@@ -90,6 +90,16 @@ document.getElementById("linkedint").innerHTML = document.getElementById("linked
 document.getElementById("githubt").innerHTML = document.getElementById("githubfield").value;
 
 
+document.getElementById("aboutmet").innerHTML = document.getElementById("aboutmefield").value;
+
+
+// work experience
+let wes = document.getElementsByClassName("wefield");
+ let str= "";
+ for(let e of wes){
+   str = str + `<li> ${e.value} </li>`
+ }
+document.getElementById("wet").innerHTML = str;
       
       
       
