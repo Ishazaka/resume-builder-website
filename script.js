@@ -101,6 +101,14 @@ let wes = document.getElementsByClassName("wefield");
  }
 document.getElementById("wet").innerHTML = str;
       
+
+// academic qualification
+let aqs = document.getElementsByClassName("aqfield");
+let arr = "";
+for (let i of aqs){
+  arr = arr + `<li> ${i.value} </li>`
+}
+document.getElementById("aqt").innerHTML = arr;
       
       
       
