@@ -110,5 +110,13 @@ for (let i of aqs){
 }
 document.getElementById("aqt").innerHTML = arr;
       
-      
+// co curricular activities
+
+document.getElementById("ccat").innerHTML = document.getElementById("ccafield").value;
+
+
+ document.getElementById("cv-form").style.display = "none";
+  document.getElementById("cv-template").style.display = "block";
+
+}      
       
