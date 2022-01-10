@@ -140,3 +140,33 @@ padding: 10px 0;
 }
 
 
+
+#head-head{
+width: 350px;
+text-align: center;
+margin-left: 35%;
+margin-top: 22px;
+margin-bottom: 30px;
+font-size: 56px;
+border: 2px solid olivedrab;
+border-radius: 40px;
+background-color: rgb(108, 184, 247);
+}
+#img-box{
+  width: 90vw;
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+/* height:70v ; */
+
+}
+
+.img-div{
+  width: 330px;
+  display: inline-block;
+ margin-left: 25px;
+ margin-bottom: 30px;
+ box-shadow: 0 0 15px rgba(0, 0, 0, 0.8)
+}
+
+
