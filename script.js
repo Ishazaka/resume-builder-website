@@ -1,6 +1,6 @@
 
 // resume generator
-// wrong function ~ have to write function totally of codewithharry building notes app
+// wrong function ~ have to write function totally of  notes app
 //  function addmorewe(){
 //    console.log("i am working")
 //   let wefield = document.getElementsByClassName("wefield");
